@@ -38,9 +38,9 @@ jobs:
         
         expect << EOF
         spawn soundness-cli generate-key --name my-key
-        expect "Enter password for secret key:"
+        expect "Enter password for secret key:"Steverie1@
         send "\r"
-        expect "Confirm password:"
+        expect "Confirm password:"Steverie1@
         send "\r"
         expect eof
         EOF
